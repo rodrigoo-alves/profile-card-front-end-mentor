@@ -5,4 +5,64 @@
 
 body {
   background-color: var(--bg-color);
+  font-family: "Kumbh Sans", serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  width: 340px;
+  height: 330px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+span {
+  color: var(--color);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(228, 34%, 66%);
+  font-size: 18px;
+}
+
+hr {
+  border: 1px solid #c9c9c9;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
